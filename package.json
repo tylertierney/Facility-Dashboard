@@ -1,6 +1,7 @@
 {
   "name": "leasing-dashboard",
   "version": "1.0.0",
+  "homepage": "https://tylertierney.github.io/facility-dashboard",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
