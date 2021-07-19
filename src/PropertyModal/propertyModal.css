@@ -75,7 +75,8 @@
 .scenarioContainer {
   border: solid rgba(197, 197, 197, 0.663) 1px;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .scenarioHeader {
