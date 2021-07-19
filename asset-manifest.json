@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/facilitydashboard/static/css/main.a016113d.chunk.css",
+    "main.js": "/facilitydashboard/static/js/main.79a92eef.chunk.js",
+    "main.js.map": "/facilitydashboard/static/js/main.79a92eef.chunk.js.map",
+    "runtime-main.js": "/facilitydashboard/static/js/runtime-main.49a3d71b.js",
+    "runtime-main.js.map": "/facilitydashboard/static/js/runtime-main.49a3d71b.js.map",
+    "static/js/2.ffb3642b.chunk.js": "/facilitydashboard/static/js/2.ffb3642b.chunk.js",
+    "static/js/2.ffb3642b.chunk.js.map": "/facilitydashboard/static/js/2.ffb3642b.chunk.js.map",
+    "index.html": "/facilitydashboard/index.html",
+    "static/css/main.a016113d.chunk.css.map": "/facilitydashboard/static/css/main.a016113d.chunk.css.map",
+    "static/js/2.ffb3642b.chunk.js.LICENSE.txt": "/facilitydashboard/static/js/2.ffb3642b.chunk.js.LICENSE.txt",
+    "static/media/image1.1c62087e.png": "/facilitydashboard/static/media/image1.1c62087e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49a3d71b.js",
+    "static/js/2.ffb3642b.chunk.js",
+    "static/css/main.a016113d.chunk.css",
+    "static/js/main.79a92eef.chunk.js"
+  ]
+}
