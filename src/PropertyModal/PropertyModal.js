@@ -91,8 +91,32 @@ const PropertyModal = ({
               magna incididunt mollit sit. Cupidatat in ut magna aliquip labore
               pariatur anim minim ad labore in do.
             </p>
-            <p className="seeMoreBtn">See More</p>
+            <p className="seeMoreBtn">
+              <span className="seeMoreBtnSpan">See More</span>
+            </p>
           </div>
+          <Tabs>
+            <TabList>
+              <Tab>Documents</Tab>
+              <Tab>Notes</Tab>
+              <Tab>Staff</Tab>
+            </TabList>
+
+            <TabPanels className="tabPanel">
+              <TabPanel className="tabPanel" _focus="none">
+                <p>one!</p>
+              </TabPanel>
+              <TabPanel className="tabPanel">
+                <p>two!</p>
+              </TabPanel>
+              <TabPanel
+                className="tabPanel.tabpanel2.tabpanel3"
+                style={{ boxShadow: "none" }}
+              >
+                <p>three!</p>
+              </TabPanel>
+            </TabPanels>
+          </Tabs>
         </div>
       </div>
     </div>
