@@ -4,7 +4,7 @@
   "homepage": "https://tylertierney.github.io/facilitydashboard/",
   "description": "",
   "keywords": [],
-  "main": "src/index.tsx",
+  "main": "src/index.js",
   "dependencies": {
     "@chakra-ui/hooks": "1.5.4",
     "@chakra-ui/icons": "^1.0.14",
