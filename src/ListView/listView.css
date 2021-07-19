@@ -1,0 +1,11 @@
+.th {
+  text-align: left;
+  font-size: 0.8rem;
+  user-select: none;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+}
+
+.propertyTable {
+  max-width: 800px;
+}

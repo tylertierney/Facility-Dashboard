@@ -1,0 +1,26 @@
+.propertyTR {
+  /* border-bottom: solid rgb(221, 221, 221) 1px; */
+  user-select: none;
+}
+
+.propertyTR:nth-child(2n) {
+  background-color: rgba(207, 207, 207, 0.137);
+}
+
+.propertyTR:first-child {
+  border-top: 1px solid rgb(153, 32, 32);
+}
+
+.propertyTR:hover {
+  background-color: rgba(177, 177, 177, 0.568);
+}
+
+.propertyTD {
+  text-align: left;
+  font-size: 0.8rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.preventScroll {
+  overflow: hidden;
+}

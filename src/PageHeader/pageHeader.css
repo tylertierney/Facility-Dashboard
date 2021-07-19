@@ -1,0 +1,26 @@
+.pageHeaderContainer {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageHeaderTitle {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+/* .viewIcons:focus {
+  box-shadow: none;
+} */
+
+.viewIcons {
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .pageHeaderTitle {
+    font-size: 1.3rem;
+  }
+}

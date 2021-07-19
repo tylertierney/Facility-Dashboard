@@ -1,0 +1,9 @@
+.pageHeader {
+  background-color: white;
+  padding: 1vh 0;
+  width: 100%;
+  box-shadow: 0px 4px 5px 0px rgb(110, 110, 110, 0.6);
+  z-index: 2;
+  position: sticky;
+  top: 0;
+}
