@@ -72,6 +72,44 @@
   box-shadow: none !important;
 }
 
+.scenarioContainer {
+  border: solid rgba(197, 197, 197, 0.663) 1px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.scenarioHeader {
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.scenarioDescription {
+  padding-left: 14px;
+  padding-right: 14px;
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+  max-height: 50px;
+  max-width: 100%;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.seeMoreBtn {
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: right;
+  font-size: 0.8rem;
+  padding-right: 14px;
+}
+
 @media only screen and (max-width: 600px) {
   .modalContainer {
     top: 10vh;

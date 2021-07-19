@@ -1,11 +1,12 @@
 import React from "react";
 import "./propertyModal.css";
 import { CloseButton } from "@chakra-ui/react";
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import {
   getStreetAddress,
   getCityStateZip,
   preventScrollOnBody,
-  determineBadgeColor
+  determineBadgeColor,
 } from "../HelperFunctions";
 import { ButtonGroup, Button, Badge } from "@chakra-ui/react";
 import { SiGooglemaps } from "react-icons/si";
@@ -22,7 +23,7 @@ const PropertyModal = ({
   strategicdirection,
   size,
   expdate,
-  featuredimg
+  featuredimg,
 }) => {
   const hideModal = (e) => {
     e.stopPropagation();
@@ -80,6 +81,18 @@ const PropertyModal = ({
               </Button>
             </a>
           </ButtonGroup>
+          <div className="scenarioContainer">
+            <h3 className="scenarioHeader">Blend & Extend</h3>
+            <p className="scenarioDescription">
+              Nisi ipsum aute irure eu incididunt. Nostrud velit labore
+              adipisicing excepteur aute enim adipisicing excepteur adipisicing
+              pariatur amet. Nostrud incididunt ad adipisicing nulla ex quis ex
+              laboris proident proident enim. Lorem occaecat non quis labore
+              magna incididunt mollit sit. Cupidatat in ut magna aliquip labore
+              pariatur anim minim ad labore in do.
+            </p>
+            <p className="seeMoreBtn">See More</p>
+          </div>
         </div>
       </div>
     </div>
